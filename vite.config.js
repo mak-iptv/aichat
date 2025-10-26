@@ -1,9 +1,13 @@
-import { defineConfig } from 'vite';
+import { defineConfig } from "vite";
 
 export default defineConfig({
-  // opsionet ekzistuese
+  server: {
+    host: "0.0.0.0",
+    port: process.env.PORT || 3000,
+  },
   preview: {
-    host: true, // ose
-    allowedHosts: ['aichat-sc4w.onrender.com']
-  }
+    host: "0.0.0.0",
+    port: process.env.PORT || 3000,
+    allowedHosts: ["aichat-sc4w.onrender.com"], // 🔥 Shto domenin e Render-it
+  },
 });
