@@ -69,3 +69,11 @@ fileInput.addEventListener('change', (e) => {
   };
   reader.readAsDataURL(file);
 });
+
+messageInput.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter' && !e.shiftKey) {
+    e.preventDefault();
+    sendMessage.click(); 
+    // ose thërrit funksionin që vepron butonin “Send”
+  }
+});
