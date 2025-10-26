@@ -1,6 +1,6 @@
 {
-  "name": "chatbot-browser",
-  "version": "1.0.0",
+  "name": "aichat",
+  "version": "1.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
