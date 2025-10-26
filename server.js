@@ -1,7 +1,7 @@
 // script.js
 
 // 🚨 VENDOSNI KËTU URL-NË PUBLIKE TË SERVERIT TUAJ TË DEPLOY-UAR NGA GITHUB!
-const BASE_SERVER_URL = "https://emri-i-projektit-i-deploy-uar.com"; // SHEMBULL!
+const BASE_SERVER_URL = "https://aichat-server.onrender.com"; // SHEMBULL!
 const SERVER_ENDPOINT = BASE_SERVER_URL + '/generate-content'; 
 
 async function dergoKërkesënNëMënyrëTëSigurt() {
