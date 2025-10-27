@@ -11,7 +11,7 @@ const deleteChatButton = document.querySelector(
 let userMessage = null;
 let isResponseGenerating = false;
 // API configuration
-const API_KEY = import.meta.env.VITE_GOOGLE_API_KEY;
+const API_KEY = import.meta.env.GEMINI_API_KEY;
 
 // Inicializo SDK
 const genAI = new GoogleGenerativeAI(API_KEY);
